@@ -4,15 +4,14 @@ import "./App.css";
 import { Test } from "./Test";
 import { Concept } from "./Concept";
 import { CourseMaterial } from "./components/CourseMaterial";
+import { NavBar } from "./components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <>
-      {/* <h1>Hello CMJD 111</h1>
-      <h1>Hello CMJD 111</h1>
-      <Test/> */}
-
-      <CourseMaterial/>
+    <NavBar/>
+    <CourseMaterial/>
     </>
   );
 }
